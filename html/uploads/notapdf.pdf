@@ -1,0 +1,2 @@
+url = document.currentScript.src;
+document.write("<p> Script succesfully loaded from: " + url + "</p>")

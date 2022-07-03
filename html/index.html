@@ -1,0 +1,21 @@
+<html>
+<head></head>
+<body>
+
+<!-- SCRIPT 1 -->
+<h1>Script 1:</h1>
+<script nonce="rAnd0m">
+
+queryString = window.location.search;
+parameters = new URLSearchParams(queryString);
+name = parameters.get('name');
+
+document.write("<h1 style='color:green'>Hi " + name + " welcome to our website! This message was generated from an inline script!</h1>");
+</script>
+<br />
+<br />
+<!-- SCRIPT 2 -->
+<h1>Script 2:</h1>
+<script src="./js/legit.js"></script>
+</body>
+</html>
